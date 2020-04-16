@@ -1,0 +1,33 @@
+.widget-window {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    height: 80%;
+    width: 25%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    z-index: 3px;
+    transform: translateX(2%) translateY(0%);
+    overflow: hidden;
+}
+
+.widget-header {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 93%;
+    height: 30px;
+    padding: 10px 15px;
+    border-bottom: 1px solid blueviolet;
+    background: blueviolet;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.widget-body {
+    overflow-y: auto;
+    background: #fff;
+}

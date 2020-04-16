@@ -1,0 +1,19 @@
+.widget-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #ddd;
+    width: 100%;
+    height: auto;
+    .widget-menu-link {
+        background: #000;
+        margin: 10px;
+        border-radius: 5px;
+        color: #fff;
+        align-items: center;
+        width: 18%;
+        height: 50px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+}
