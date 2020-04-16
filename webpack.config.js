@@ -17,10 +17,8 @@ const defaultConfig = {
   },
   devtool: 'inline-source-map',
   plugins: [
-    // new CleanWebpackPlugin({protectWebpackAssets: false}),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
-      // both options are optional
       filename: devMode ? '[name].css' : '[name].[hash].css',
       chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
     }),
@@ -50,8 +48,6 @@ const defaultConfig = {
       {
         test: /\.(scss|css)$/,
         use: [
-          // fallback to style-loader in development
-          // devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
           'style-loader',
           'css-loader',
           'cssimportant-loader',
