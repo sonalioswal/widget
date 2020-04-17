@@ -1,4 +1,3 @@
-/* eslint react/prop-types: 0 */
 import React, {useState} from 'react';
 import {Route, MemoryRouter, Switch} from "react-router-dom";
 
